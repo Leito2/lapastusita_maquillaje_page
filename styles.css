@@ -44,21 +44,25 @@ nav ul li a {
 /* Estilos del banner */
 
 .banner {
-  background-image: url('banner.jpg');
+  background-image: url('https://www.eluniversal.com.mx/resizer/sJPkh483ARFL27lZ7ABtcgHupDc=/1100x666/cloudfront-us-east-1.images.arcpublishing.com/eluniversal/JQDBVB3I4NEIPMTS6OENLZHAGI.jpg');
   background-size: cover;
-  color: #fff;
-  padding: 100px;
+  background-attachment: fixed;
+  color: #f9f9f9;
+  padding: 200px 10px;
   text-align: center;
+  height: 30vh;
 }
 
 .banner h2 {
   margin-top: 0;
   font-size: 36px;
+  text-shadow: 2px 2px 4px #222;
 }
 
 .banner p {
   font-size: 18px;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #222;
 }
 
 .banner .btn {
