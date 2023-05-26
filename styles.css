@@ -1,0 +1,142 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+
+header {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Estilos del banner */
+
+.banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+.banner h2 {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner .btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.banner .btn:hover {
+  background-color: #555;
+}
+
+/* Estilos de productos destacados */
+
+.featured-products {
+  margin-top: 40px;
+}
+
+.featured-products h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product-card p {
+  margin-bottom: 10px;
+}
+
+.product-card .btn {
+  display: block;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.product-card .btn:hover {
+  background-color: #555;
+}
+
+/* Estilos del pie de página */
+
+footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+.footer p {
+  margin: 0;
+}
